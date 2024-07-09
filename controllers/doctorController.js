@@ -1,7 +1,7 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-import { Doctor } from '../models/doctors.js';
+import { Doctor } from '../models/Doctors.js';
 
 export async function registerDoctor(req, res){
   const { name, email, password } = req.body;
